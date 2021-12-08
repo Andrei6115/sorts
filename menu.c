@@ -7,12 +7,12 @@ void	menu()
 	int	*arr;
 	int	i;
 
-	system("clean");
+	system("clear");
 	printf("Enter size: ");
 	scanf("%d", &size);
-	system("clean");
+	system("clear");
 	printf("1. Hand input\n2. Auto input\n");
-	scanf("%d", flag);
+	scanf("%d", &flag);
 	switch (flag)
 	{
 	case 1:
@@ -31,7 +31,7 @@ void	menu()
 	default:
 		return;
 	}
-	system("clean");
+	system("clear");
 	printArray(arr, size);
 	printf("Select sort\n1. insertion\n2. bubble\n3. selection\n4. shell\n0. Exit\n");
 	scanf("%d", &flag);

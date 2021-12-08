@@ -7,10 +7,10 @@ typedef struct s_array
 
 int main(void)
 {
-	t_array	array;
+	//t_array	array;
 
-	array.size = 10;
-	array.data = genArray(array.size);
-	printArray(array.data, array.size);
+	// array.size = 10;
+	// array.data = genArray(array.size);
+	// printArray(array.data, array.size);
 	menu();
 }

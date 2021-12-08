@@ -118,9 +118,14 @@ void	insertion(int *array, int size)
 		while (array[j] > temp && j >=0)
 		{
 			array[j + 1] = array[j];
+			printf("temp: %d", temp);
+			printArray(array, size);
+			
 			j-= 1;
 		}
 		array[j + 1] = temp;
+		printf("temp: %d", temp);
+		printArray(array, size);
 		i++;
 	}
 }
