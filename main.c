@@ -12,5 +12,11 @@ int main(void)
 	// array.size = 10;
 	// array.data = genArray(array.size);
 	// printArray(array.data, array.size);
-	menu();
+	system("clear");
+	while (1)
+	{
+		menu();
+	}
+	
+
 }

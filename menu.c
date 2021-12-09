@@ -7,7 +7,7 @@ void	menu()
 	int	*arr;
 	int	i;
 
-	system("clear");
+	
 	printf("Enter size: ");
 	scanf("%d", &size);
 	system("clear");
@@ -52,4 +52,5 @@ void	menu()
 	default:
 		return;
 	}
+	free(arr);
 }

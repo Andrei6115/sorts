@@ -21,8 +21,8 @@ void	shell(int *array, int size)
 		i = dist;
 		while (i < size)
 		{
-			j = i - dist;
-			while (j >= 0 && array[j] > array[j + 1])
+			j = i - dist - 1;
+			while (j >= 0 && array[j] > array[j + dist])
 			{
 				swap(&array[j], &array[j + dist]);
 				printArray(array, size);
